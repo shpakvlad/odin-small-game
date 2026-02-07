@@ -12,10 +12,14 @@ FOR i=0; i<5; i++
 
     IF comp = rock AND user = scissors THEN INCREMENT comp
     ELSE IF comp = rock AND user = paper THEN INCREMENT user
+
     ELSE IF comp = scissors AND user = rock THEN INCREMENT user
-    ELSE IF comp = scissors AND user = 3 THEN INCREMENT comp
+    ELSE IF comp = scissors AND user = paper THEN INCREMENT comp
+
     ELSE IF comp = paper AND user = rock THEN INCREMENT comp
     ELSE IF comp = paper AND user = scissors THEN INCREMENT user  
+
+    PRINT score
 ENDFOR
 
 PRINT result
