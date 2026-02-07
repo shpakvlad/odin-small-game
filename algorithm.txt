@@ -1,0 +1,21 @@
+1 = rock
+2 = scissors
+3 = paper
+
+
+FOR i=1; i<5; i++
+    REPEAT 
+        READ (user)
+        CALCULATE comp
+        IF user == comp PRINT error
+    UNTIL comp != user 
+
+    IF comp = 1 AND юзер = 2 THEN WRITE comp
+    ELSE IF comp = 1 AND user = 3 THEN WRITE user
+    ELSE IF comp = 2 AND user = 1 THEN WRITE user
+    ELSE IF comp = 2 AND user = 3 THEN WRITE comp
+    ELSE IF comp = 3 AND user = 1 THEN WRITE comp
+    ELSE IF comp = 3 AND user = 2 THEN WRITE user  
+ENDFOR
+
+PRINT result
