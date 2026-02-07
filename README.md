@@ -1,1 +1,1 @@
-# odin-small-game
+This is small geme Rock Paper Scissors.
